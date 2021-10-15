@@ -91,70 +91,67 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        label1.setText("Producto");
+        label1.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        label1.setText("Producto:");
 
-        label2.setText("Cantidad");
+        label2.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        label2.setText("Cantidad:");
 
-        label3.setText("Precio");
+        label3.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        label3.setText("Precio:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(156, 156, 156)
-                .addComponent(label1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(label2)
-                .addGap(63, 63, 63)
-                .addComponent(label3)
-                .addGap(44, 44, 44))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(fieldProducto, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(fieldCantidad, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(label1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(fieldPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addGap(18, 18, 18)
-                            .addComponent(botonAgregar, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(botonEditar, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(botonBorrar, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(botonMostrar, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addGap(20, 20, 20)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(22, Short.MAX_VALUE))
+                        .addComponent(fieldProducto, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(label2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(fieldCantidad, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(label3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(fieldPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(botonEditar, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(botonAgregar, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(botonBorrar, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(botonMostrar, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 372, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(31, 31, 31))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(31, 31, 31)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label1)
+                    .addComponent(fieldProducto, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label2)
-                    .addComponent(label3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE, false)
-                    .addComponent(fieldPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(fieldCantidad, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldProducto, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(36, 36, 36)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(botonAgregar)
-                    .addComponent(botonEditar)
-                    .addComponent(botonBorrar)
-                    .addComponent(botonMostrar))
-                .addGap(33, 33, 33)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28))
+                    .addComponent(label3)
+                    .addComponent(fieldPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(51, 51, 51)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(botonAgregar)
+                        .addGap(18, 18, 18)
+                        .addComponent(botonEditar)
+                        .addGap(18, 18, 18)
+                        .addComponent(botonBorrar)
+                        .addGap(18, 18, 18)
+                        .addComponent(botonMostrar))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -171,18 +168,34 @@ public class Menu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void botonAgregarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonAgregarMouseClicked
+    private void botonMostrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonMostrarMouseClicked
+        ProductosJpaController productosJpa = new ProductosJpaController();
+        List<Productos> lista = new ArrayList<>();
+        lista = productosJpa.findProductosEntities();
+        DefaultTableModel model=(DefaultTableModel)tabla.getModel();
+        model.setRowCount(0);
+        for (int i = 0; i < lista.size(); i++)
+        {
+            model.addRow(new Object[]{lista.get(i).getNombre(), lista.get(i).getCantidad(), lista.get(i).getPrecio()});
+        }
+    }//GEN-LAST:event_botonMostrarMouseClicked
+
+    private void botonBorrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonBorrarMouseClicked
         Productos productos = new Productos();
         ProductosJpaController productosJpa = new ProductosJpaController();
-        productos.setNombre(this.fieldProducto.getText());
-        productos.setCantidad(Integer.parseInt(this.fieldCantidad.getText()));
-        productos.setPrecio(Double.parseDouble(this.fieldPrecio.getText()));
-        productosJpa.create(productos);
-        this.fieldProducto.setText("");
-        this.fieldCantidad.setText("");
-        this.fieldPrecio.setText("");
-        JOptionPane.showMessageDialog(null, "Creación exitosa");
-    }//GEN-LAST:event_botonAgregarMouseClicked
+        List<Productos> lista = new ArrayList<>();
+        lista = productosJpa.findProductosEntities();
+        for (int i = 0; i < lista.size(); i++) {
+            if ( lista.get(i).getNombre().equalsIgnoreCase(this.fieldProducto.getText())) {
+                try {
+                    productosJpa.destroy(lista.get(i).getIdProducto());
+                } catch (NonexistentEntityException ex) {
+                    Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+        JOptionPane.showMessageDialog(null, "Borrado exitoso");
+    }//GEN-LAST:event_botonBorrarMouseClicked
 
     private void botonEditarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonEditarMouseClicked
         Productos productos = new Productos();
@@ -212,34 +225,18 @@ public class Menu extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Edición exitosa");
     }//GEN-LAST:event_botonEditarMouseClicked
 
-    private void botonBorrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonBorrarMouseClicked
+    private void botonAgregarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonAgregarMouseClicked
         Productos productos = new Productos();
         ProductosJpaController productosJpa = new ProductosJpaController();
-        List<Productos> lista = new ArrayList<>();
-        lista = productosJpa.findProductosEntities();
-        for (int i = 0; i < lista.size(); i++) {
-            if ( lista.get(i).getNombre().equalsIgnoreCase(this.fieldProducto.getText())) {
-                try {
-                    productosJpa.destroy(lista.get(i).getIdProducto());
-                } catch (NonexistentEntityException ex) {
-                    Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }
-        }
-        JOptionPane.showMessageDialog(null, "Borrado exitoso");
-    }//GEN-LAST:event_botonBorrarMouseClicked
-
-    private void botonMostrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonMostrarMouseClicked
-        ProductosJpaController productosJpa = new ProductosJpaController();
-        List<Productos> lista = new ArrayList<>();
-        lista = productosJpa.findProductosEntities();
-        DefaultTableModel model=(DefaultTableModel)tabla.getModel();
-        model.setRowCount(0);
-        for (int i = 0; i < lista.size(); i++)
-        {
-            model.addRow(new Object[]{lista.get(i).getNombre(), lista.get(i).getCantidad(), lista.get(i).getPrecio()});
-        }
-    }//GEN-LAST:event_botonMostrarMouseClicked
+        productos.setNombre(this.fieldProducto.getText());
+        productos.setCantidad(Integer.parseInt(this.fieldCantidad.getText()));
+        productos.setPrecio(Double.parseDouble(this.fieldPrecio.getText()));
+        productosJpa.create(productos);
+        this.fieldProducto.setText("");
+        this.fieldCantidad.setText("");
+        this.fieldPrecio.setText("");
+        JOptionPane.showMessageDialog(null, "Creación exitosa");
+    }//GEN-LAST:event_botonAgregarMouseClicked
 
     
 

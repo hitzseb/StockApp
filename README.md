@@ -1,5 +1,5 @@
 # StockApp
 
-Aplicación Crud hecha en Java
+Aplicación CRUD hecha en Java
 
-<img serc="caps/StockApp_cap.png"/>
+<img src="caps/StockApp_cap.png"/>
